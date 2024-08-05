@@ -1,0 +1,75 @@
+/* Basic styles */  
+  header {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+  h3{
+      font-size: 150%;
+      margin-bottom: 5px;
+      margin-left: 0;
+      text-align: center;
+      color:white
+    }
+    p{
+      font-size: 110%;
+      margin-bottom: 5px;
+      margin-left: 0;
+      text-align: center;
+      color:white
+    }
+  }
+  p {
+    text-indent: 3em; /* Adjust this value to your desired padding */
+  }
+  
+  h1, h2, p, ul {
+    margin-bottom: 5px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    max-width: auto;
+    margin: 0px auto;
+    padding: 170px;
+    border-radius: 8px;
+}
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  header {
+    position: relative; /* Allows positioning of elements within the header */
+    height: 200px;  /* Adjust height as needed */
+  }
+  
+  .background-image {
+    position: absolute; /* Layers the background image behind the profile image */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    background-image: url("Image-folder/img.jpg");
+    background-size: cover; /* Fills the entire header area */
+    background-position: center; /* Centers the background image */
+  }
+  
+  .circular-image {
+    border-radius: 100%;
+    width: 250px; /* Adjust width as needed */
+    height: 250px; /* Adjust height as needed */
+    
+  }
+  .Contact {
+    width: 100%;
+    height: 2%; /* Adjust as needed */
+}
+.links{
+  text-align: center;
+  padding: 10px;
+}
